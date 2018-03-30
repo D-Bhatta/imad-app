@@ -9,7 +9,7 @@ app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 var articles = {
-articleOne : {
+article-one : {
     title:'Article One | Debabrata',
     heading:'Article One',
     date:'30 March 2019',
@@ -23,7 +23,7 @@ articleOne : {
 				TEXt FOR MY 1ST ARTCILE. TEXt FOR MY 1ST ARTCILE. TEXt FOR MY 1ST ARTCILE. TEXt FOR MY 1ST ARTCILE. TEXt FOR MY 1ST ARTCILE. TEXt FOR MY 1ST ARTCILE. TEXt FOR MY 1ST ARTCILE. TEXt FOR MY 1ST ARTCILE. TEXt FOR MY 1ST ARTCILE. TEXt FOR MY 1ST ARTCILE. TEXt FOR MY 1ST ARTCILE. TEXt FOR MY 1ST ARTCILE. TEXt FOR MY 1ST ARTCILE. TEXt FOR MY 1ST ARTCILE. 
 			</p>`
         },	
-articleTwo : {
+article-two : {
     title:'Article Two | Debabrata',
     heading:'Article Two',
     date:'30 March 2019',
@@ -37,7 +37,7 @@ articleTwo : {
 				TEXt FOR MY 2ND ARTCILE. TEXt FOR MY 2ND ARTCILE. TEXt FOR MY 2ND ARTCILE. TEXt FOR MY 2ND ARTCILE. TEXt FOR MY 2ND ARTCILE. TEXt FOR MY 2ND ARTCILE. TEXt FOR MY 2ND ARTCILE. TEXt FOR MY 2ND ARTCILE. TEXt FOR MY 2ND ARTCILE. TEXt FOR MY 2ND ARTCILE. TEXt FOR MY 2ND ARTCILE. TEXt FOR MY 2ND ARTCILE. TEXt FOR MY 2ND ARTCILE. TEXt FOR MY 2ND ARTCILE. 
 			</p>`
         },
-articleThree : {
+article-three : {
     title:'Article Three | Debabrata',
     heading:'Article Three',
     date:'30 March 2019',
