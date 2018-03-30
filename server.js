@@ -9,7 +9,7 @@ app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 var articles = {
-article-one : {
+'article-one' : {
     title:'Article One | Debabrata',
     heading:'Article One',
     date:'30 March 2019',
@@ -23,7 +23,7 @@ article-one : {
 				TEXt FOR MY 1ST ARTCILE. TEXt FOR MY 1ST ARTCILE. TEXt FOR MY 1ST ARTCILE. TEXt FOR MY 1ST ARTCILE. TEXt FOR MY 1ST ARTCILE. TEXt FOR MY 1ST ARTCILE. TEXt FOR MY 1ST ARTCILE. TEXt FOR MY 1ST ARTCILE. TEXt FOR MY 1ST ARTCILE. TEXt FOR MY 1ST ARTCILE. TEXt FOR MY 1ST ARTCILE. TEXt FOR MY 1ST ARTCILE. TEXt FOR MY 1ST ARTCILE. TEXt FOR MY 1ST ARTCILE. 
 			</p>`
         },	
-article-two : {
+'article-two' : {
     title:'Article Two | Debabrata',
     heading:'Article Two',
     date:'30 March 2019',
@@ -37,7 +37,7 @@ article-two : {
 				TEXt FOR MY 2ND ARTCILE. TEXt FOR MY 2ND ARTCILE. TEXt FOR MY 2ND ARTCILE. TEXt FOR MY 2ND ARTCILE. TEXt FOR MY 2ND ARTCILE. TEXt FOR MY 2ND ARTCILE. TEXt FOR MY 2ND ARTCILE. TEXt FOR MY 2ND ARTCILE. TEXt FOR MY 2ND ARTCILE. TEXt FOR MY 2ND ARTCILE. TEXt FOR MY 2ND ARTCILE. TEXt FOR MY 2ND ARTCILE. TEXt FOR MY 2ND ARTCILE. TEXt FOR MY 2ND ARTCILE. 
 			</p>`
         },
-article-three : {
+'article-three' : {
     title:'Article Three | Debabrata',
     heading:'Article Three',
     date:'30 March 2019',
@@ -88,7 +88,7 @@ function createTemplate(data){
     return htmlTemplate;
 }
 app.get('/article-one',function(req,res){
-   res.send(createTemplate(articleOne)); 
+   res.send(createTemplate(articles[articleName])); 
 });
 
 app.get('/article-two',function(req,res){
