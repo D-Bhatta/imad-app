@@ -24,8 +24,8 @@ articleOne : {
 			</p>`
         },	
 articleTwo : {
-    title:'Article One | Debabrata',
-    heading:'Article One',
+    title:'Article Two | Debabrata',
+    heading:'Article Two',
     date:'30 March 2019',
     content:`<p> 
 				TEXt FOR MY 2ND ARTCILE. TEXt FOR MY 2ND ARTCILE. TEXt FOR MY 2ND ARTCILE. TEXt FOR MY 2ND ARTCILE. TEXt FOR MY 2ND ARTCILE. TEXt FOR MY 2ND ARTCILE. TEXt FOR MY 2ND ARTCILE. TEXt FOR MY 2ND ARTCILE. TEXt FOR MY 2ND ARTCILE. TEXt FOR MY 2ND ARTCILE. TEXt FOR MY 2ND ARTCILE. TEXt FOR MY 2ND ARTCILE. TEXt FOR MY 2ND ARTCILE. TEXt FOR MY 2ND ARTCILE. 
@@ -38,8 +38,8 @@ articleTwo : {
 			</p>`
         },
 articleThree : {
-    title:'Article One | Debabrata',
-    heading:'Article One',
+    title:'Article Three | Debabrata',
+    heading:'Article Three',
     date:'30 March 2019',
     content:`<p> 
 				TEXt FOR MY 3RD ARTCILE. TEXt FOR MY 3RD ARTCILE. TEXt FOR MY 3RD ARTCILE. TEXt FOR MY 3RD ARTCILE. TEXt FOR MY 3RD ARTCILE. TEXt FOR MY 3RD ARTCILE. TEXt FOR MY 3RD ARTCILE. TEXt FOR MY 3RD ARTCILE. TEXt FOR MY 3RD ARTCILE. TEXt FOR MY 3RD ARTCILE. TEXt FOR MY 3RD ARTCILE. TEXt FOR MY 3RD ARTCILE. TEXt FOR MY 3RD ARTCILE. TEXt FOR MY 3RD ARTCILE. 
